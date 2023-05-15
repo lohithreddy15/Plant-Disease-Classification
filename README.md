@@ -40,7 +40,7 @@ To train the model, navigate to the project directory and run the following comm
 python train.py -e 25 -lr 0.001 -m densenet
 ```
 
-This will train the model for 10 epochs with a learning rate of 0.001 using the `DenseNet` architecture. If you want to use the `EfficientNet` architecture instead, use the following command:
+This will train the model for 25 epochs with a learning rate of 0.001 using the `DenseNet` architecture. If you want to use the `EfficientNet` architecture instead, use the following command:
 ```python
 python train.py -e 25 -lr 0.001 -m efficientnet
 ```
